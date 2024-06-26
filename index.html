@@ -150,7 +150,7 @@
     <div class="container">
         <h1>射龍門 ROI 計算機</h1>
         <div class="field">
-            <label for="cardA">第一張門牌 (A, 2-10, J, Q, K):</label>
+            <label for="cardA">第一張門牌：</label>
             <select id="cardA" onchange="calculateROI()">
                 <option value="1">A</option>
                 <option value="2">2</option>
@@ -168,7 +168,7 @@
             </select>
         </div>
         <div class="field">
-            <label for="cardB">第二張門牌 (A, 2-10, J, Q, K):</label>
+            <label for="cardB">第二張門牌：</label>
             <select id="cardB" onchange="calculateROI()">
                 <option value="1">A</option>
                 <option value="2">2</option>
@@ -186,12 +186,12 @@
             </select>
         </div>
         <div class="field" id="betOptions">
-            <label>賭大或賭小:</label>
+            <label>賭大或賭小：</label>
             <input type="radio" id="big" name="betChoice" value="大" onclick="calculateROI()">大
             <input type="radio" id="small" name="betChoice" value="小" onclick="calculateROI()">小
         </div>
         <div class="field">
-            <label for="usedInnerCards">門內牌數量:</label>
+            <label for="usedInnerCards">門內牌數量：</label>
             <div class="buttons">
                 <button onclick="decrementValue('usedInnerCards')">-</button>
                 <input type="number" id="usedInnerCards" value="0" readonly>
@@ -199,7 +199,7 @@
             </div>
         </div>
         <div class="field">
-            <label for="usedOuterCards">門外牌數量:</label>
+            <label for="usedOuterCards">門外牌數量：</label>
             <div class="buttons">
                 <button onclick="decrementValue('usedOuterCards')">-</button>
                 <input type="number" id="usedOuterCards" value="0" readonly>
@@ -207,7 +207,7 @@
             </div>
         </div>
         <div class="field">
-            <label for="usedGateCards">門牌數量:</label>
+            <label for="usedGateCards">門牌數量：</label>
             <div class="buttons">
                 <button onclick="decrementValue('usedGateCards')">-</button>
                 <input type="number" id="usedGateCards" value="0" readonly>
